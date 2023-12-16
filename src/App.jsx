@@ -1,12 +1,14 @@
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
 import './App.css'
+import HomePage from './Pages/HomePage'
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+
+      <HomePage/>
+   
     </>
   )
 }

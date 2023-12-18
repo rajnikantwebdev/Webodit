@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectCards(props) {
   return (
-    <div data-aos={`${props.aos}`} className='m-3'>
+    <div data-aos={`${props.aos}`} className='m-auto my-4'>
       
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 " >

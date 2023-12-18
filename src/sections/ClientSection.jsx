@@ -1,12 +1,12 @@
 import React from 'react'
-import Aos from 'aos'
+import ClientCard from '../components/clientCard'
 
 
 function ClientSection() {
 
 
   return (
-    <div className='bg-blue-200'>
+    <div className='bg-blue-200 py-4'>
       <div id='heading' data-aos="fade-left">
        
 <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Clients We Served</h1>
@@ -21,46 +21,48 @@ function ClientSection() {
 
 
 
-      <div className='w-[90vw] flex flex-wrap my-4 m-auto' id='main-content'>
+      <div className='w-[100vw] xl:w-[90vw]  flex flex-wrap my-4 m-auto' id='main-content'>
 
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
-        <div className='box' data-aos="fade-left"><p>hi</p></div>
+        
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+      <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
+        <ClientCard/>
      
-
+       
+        
 
 
       </div>

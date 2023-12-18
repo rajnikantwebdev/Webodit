@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import FormSection from '../sections/FormSection'
 import ProjectSection from '../sections/ProjectSection'
 import ClientSection from '../sections/ClientSection'
+import TestimonialSection from '../sections/TestimonialSection'
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
         <FormSection/>
         <ProjectSection/>
         <ClientSection/>
+        <TestimonialSection/>
     </div>
   )
 }

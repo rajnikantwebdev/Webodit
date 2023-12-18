@@ -1,13 +1,13 @@
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
 import './App.css'
+import HomePage from './Pages/HomePage'
 
 function App() {
   return (
-    <>
+    <div className= 'w-[99vw] overflow-x-hidden'>
       <Navbar />
-      <Hero />
-    </>
+      <HomePage/>
+    </div>
   )
 }
 

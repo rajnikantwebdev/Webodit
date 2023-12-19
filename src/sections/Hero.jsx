@@ -1,7 +1,4 @@
-import HeroImage from '../assets/images/hero image.svg'
-import spaceship from '../assets/weboditspaceship.svg'
-import spaceshiporange from '../assets/weboditorange.svg'
-import spaceshipblue from '../assets/weboditblue.svg'
+import spaceship from '../assets/spaceshiporangetransparent.svg'
 function Hero() {
     return (
         <section className=" w-full flex xl:flex-row flex-col ">
@@ -17,7 +14,7 @@ function Hero() {
 
             </div>
             <div className="h-full xl:w-1/2 w-full flex justify-center items-center">
-                <img src={spaceshiporange} alt="Web devloper and editing" className='w-full' />
+                <img src={spaceship} alt="Web devloper and editing" className='w-full' />
             </div>
         </section>
     )

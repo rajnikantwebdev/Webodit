@@ -1,4 +1,4 @@
-import spaceship from '../assets/weboditorangecopyone.svg'
+import spaceship from '../assets/weboditorangecopyonewebp.webp'
 function Hero() {
     return (
         <section className=" w-full flex xl:flex-row flex-col ">

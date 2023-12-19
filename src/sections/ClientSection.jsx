@@ -1,5 +1,5 @@
 import React from 'react'
-import ClientCard from '../components/clientCard'
+import ClientCard from '../components/ClientCard'
 
 
 function ClientSection() {

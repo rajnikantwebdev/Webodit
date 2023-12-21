@@ -6,7 +6,7 @@ function Navbar() {
 
 <nav class="bg-white w-full z-20 sticky top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+  <a  class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src={WeboditLogo} class="h-12" alt="Webodit logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Webodit</span>
   </a>

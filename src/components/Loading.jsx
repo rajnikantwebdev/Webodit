@@ -1,5 +1,4 @@
 import React from 'react'
-import spaceShip from '../assets/spaceship.json'
 import Lottie from 'react-lottie';
 import loadingAnimation from '../assets/loadingAnimation.json'
 
@@ -9,7 +8,7 @@ function Loading() {
   const animationOptions = {
     loop: true,
     autoplay: true,
-    animationData: loadingAnimation,
+    animationData:JSON.parse(JSON.stringify(loadingAnimation)),
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice'
     }

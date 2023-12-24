@@ -1,5 +1,4 @@
-import Navbar from './components/Navbar'
-import './App.css'
+import StickyNavbar from './components/Navbar'
 import HomePage from './Pages/HomePage'
 // import Loading from './components/Loading'
 import { useEffect,useState } from 'react'
@@ -21,8 +20,8 @@ function App() {
   //   fakeDataFetch()
   // }, [])
   return (
-        <div className='w-[99vw] overflow-x-hidden'>
-          <Navbar />
+        <div>
+          <StickyNavbar/>
           <HomePage />
         </div>
   )
